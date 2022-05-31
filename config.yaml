@@ -1,0 +1,34 @@
+name: next_frame_prediction 
+
+
+height: 64
+width: 64
+channels: 1
+
+
+epochs: 10
+batch_size: 3
+
+
+optimizer: adam
+learning_rate: 0.001
+loss: binary_crossentropy
+
+
+activation: relu
+padding: same 
+filter_size: 64 
+kernel_size: 3
+
+
+
+csv : True
+checkpoint: True
+lr : True
+
+checkpoint_dir: logs/model_checkpoints/
+csv_log_dir: logs/csv_logs/
+csv_log_name: csv_log.csv
+
+
+load_model_path : C:\Users\Amzad\Desktop\keras_project\next_frame_prediction\data\model.h5
