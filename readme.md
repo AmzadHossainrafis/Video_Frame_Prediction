@@ -19,3 +19,12 @@ For next-frame prediction, our model will be using a previous frame, which we'll
 Our data consists of sequences of frames, each of which are used to predict the upcoming frame. Let's take a look at some of these sequential frames.
 
 ![image info](./logs/frames.png)
+
+## model info 
+
+
+To build a Convolutional LSTM model, we will use the ConvLSTM2D layer, which will accept inputs of shape (batch_size, num_frames, width, height, channels), and return a prediction movie of the same shape.
+
+To learn more about [LSTM]( )
+
+
