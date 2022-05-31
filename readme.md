@@ -28,3 +28,25 @@ To build a Convolutional LSTM model, we will use the ConvLSTM2D layer, which wil
 To learn more about [LSTM](https://www.youtube.com/watch?v=QciIcRxJvsM&t=36s)
 
 
+## utils function 
+
+dowload_data--> download the data we used moving mnist from [link]("http://www.cs.toronto.edu/~nitish/unsupervised_video/mnist_test_seq.npy )
+extract every frame from the dataset ,extend extra dimention , normalize every frame 
+
+read_yaml --> read the yaml  file and retrun the date in a dictionary 
+
+class SelectCallbacks --> callback class for validation prediction and create the necessary callbacks objects . follwing callbackse are present in this class  model chackpoint , learning learning sheduler , csv logger 
+
+those peram can be controled from config file 
+
+plot_loss --> plot the loss according the epochs 
+
+
+
+
+
+
+
+
+
+
