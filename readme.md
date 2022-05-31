@@ -25,6 +25,6 @@ Our data consists of sequences of frames, each of which are used to predict the 
 
 To build a Convolutional LSTM model, we will use the ConvLSTM2D layer, which will accept inputs of shape (batch_size, num_frames, width, height, channels), and return a prediction movie of the same shape.
 
-To learn more about [LSTM]( )
+To learn more about [LSTM](https://www.youtube.com/watch?v=QciIcRxJvsM&t=36s)
 
 
