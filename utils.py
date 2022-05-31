@@ -137,6 +137,14 @@ def plot_loss(history):
 
 
 def predictions(model_dir,datasets):
+
+    """
+    arg: model_dir --> str , contain the pathe of model dataset
+    arg: datasets --> list , contain the dataset for prediction
+
+    return: list of predictions and polt it 
+    
+    """
     model=load_model(model_dir)
     fig ,axis= plt.subplot(2,5)
     rand=np.random.randint(0,14)
