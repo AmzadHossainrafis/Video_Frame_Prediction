@@ -30,6 +30,7 @@ To learn more about [LSTM](https://www.youtube.com/watch?v=QciIcRxJvsM&t=36s)
 
 ## utils function 
 
+
 dowload_data--> download the data we used moving mnist from [link]("http://www.cs.toronto.edu/~nitish/unsupervised_video/mnist_test_seq.npy )
 extract every frame from the dataset ,extend extra dimention , normalize every frame 
 
