@@ -45,7 +45,11 @@ those peram can be controled from config file
 
 plot_loss --> plot the loss according the epochs 
 
-
+## training 
+befor star of the tranning edit the config file according to your system  or trainning requairment 
+```bash
+python train.py
+```
 
 
 
