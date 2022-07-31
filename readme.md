@@ -48,6 +48,9 @@ plot_loss --> plot the loss according the epochs
 ## training 
 befor star of the tranning edit the config file according to your system  or trainning requairment 
 ```bash
+# cd the dir path of the project 
+cd [ dir path of the project ]
+# train the model 
 python train.py
 ```
 
